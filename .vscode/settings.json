@@ -9,5 +9,8 @@
   "scss.lint.duplicateProperties": "warning",
   "sass.format.debug": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  }
 }
