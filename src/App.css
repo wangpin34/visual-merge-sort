@@ -1,0 +1,29 @@
+.bar-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.bar {
+  width: 6px;
+  background-color: aqua;
+  margin: 0 6px;
+}
+
+/* .initial {
+  background-color: aqua;
+}
+
+.checking {
+  animation: moving 200ms;
+} */
+
+@keyframes moving {
+  0% {
+    background-color: blueviolet;
+  }
+
+  100% {
+    background-color: aqua;
+  }
+}
